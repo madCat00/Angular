@@ -1,0 +1,13 @@
+<ul *ngFor="let richiesta of apiRequest1" class="list">
+  <div class="mydiv">
+ <li class="property">
+    <span>userId: {{richiesta.userid}}</span> <br />
+    <span>id: {{richiesta.id}}</span> <br />
+    <span>title: {{richiesta.title}}</span> <br />
+    <span>body: {{richiesta.body}}</span> <br />
+  </li>
+</div>
+</ul>
+
+<p *ngIf="readError">Hello paragraf</p>
+
